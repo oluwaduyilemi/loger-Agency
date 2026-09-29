@@ -1,12 +1,17 @@
 import Navbar from "./components/navbar";
 import Hero from "@/app/sub-components/Hero";
+import Capabilities from "./sub-components/capabilities";
+import Strategy from "./sub-components/strategy";
+import SelectedWork from "./sub-components/selected-work";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#f7f4ef] text-[#161514]">
       <Navbar />
       <Hero />
-
+      <Capabilities/>
+      <Strategy/>
+      <SelectedWork/>
       {/* Temporary sections */}
       <section
         id="work"
